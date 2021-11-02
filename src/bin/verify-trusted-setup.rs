@@ -14,4 +14,5 @@ fn main() {
     let s = Fr::from_str("0").unwrap();
 
     assert_eq!(_ts1[0].mul(s), _ts1[1]);
+    assert_eq!(_ts2[0].mul(s), _ts2[1]);
 }
